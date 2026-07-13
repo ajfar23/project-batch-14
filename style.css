@@ -1,0 +1,104 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: "Open Sans", sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    padding: 12px;
+
+}
+.common-btn{
+    background-color: darkorange;
+    padding: 10px 20px;
+    border-radius: 12px;
+    font-weight: bold;
+    color: white;
+    border: none;
+    cursor: pointer;
+
+}
+.outline-btn{
+    background-color: white;
+    padding: 10px 20px;
+    border-radius: 12px;
+    font-weight: bold;
+    color: darkorange;
+    border: 1px solid darkorange;
+    cursor: pointer;
+
+}
+.logo{
+    font-weight: bold;
+    font-size: 32px;
+}
+.logo-r{
+    color: darkorange;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 10px;
+    align-items: center;
+}
+nav ul a{
+    text-decoration: none;
+}
+.shafee{
+    background-color: beige;
+}
+
+.hero-parent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: auto;
+}
+.hero-left h2{
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 20px;
+
+}
+.hero-left .p1{
+    font-weight: 600;
+    font-size: 20px;
+}
+.hero-left p{
+    margin-bottom: 20px;
+}
+
+.rhad{
+    background-color: beige;
+    margin: 70px auto;
+    align-items: center;
+    max-width: 1200px;
+    text-align: center;
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.skill{
+    margin: 70px auto;
+    align-items: center;
+    max-width: 1200px;
+    text-align: center;
+
+}
+.all-skill{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    gap: 20px;
+    text-align: left;
+    margin: 70px auto;
+    border-radius: 10px;
+    background-color: rgb(248, 245, 241);
+}
